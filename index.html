@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint Lab</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-lg container-fluid">
+                <a class="navbar-brand text-start" href="/"><img width="200px" src="assets/img/logo.webp"
+                        alt="Sprint Lab Logo" /></a>
+                <button class="navbar-toggler toggle-btn bg-transparent border-0 shadow-none collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <input type="checkbox" id="menuToggle" />
+                    <label for="menuToggle" class="toggle">
+                        <div class="bar bar--top"></div>
+                        <div class="bar bar--middle"></div>
+                        <div class="bar bar--bottom"></div>
+                    </label>
+                </button>
+                <div class="navbar-collapse collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Sprint Lab</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
+                        </li>
+                    </ul>
+                </div>
+                <button id="themeToggle" class="btn switch-theme-btn ms-3">
+                    <i class="fa-solid fa-moon"></i>
+                    <span class="ms-1">Dark Mode</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section id="about" class="hero-section">
+        <div class="container-lg container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <span class="sec-label text-uppercase mb-2 d-inline-block">About me</span>
+                        <h1 class="display-4">We build digital products that help brands sprint ahead.</h1>
+                        <p class="lead">
+                            From polished websites to full-stack product design, SprintLab delivers fast, thoughtful
+                            solutions that elevate your business and connect you with the people who matter.
+                        </p>
+                        <a href="#" class="theme-btn btn btn-lg">Explore Our Services</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center hero-img-wrapper">
+                    <img src="assets/img/hero-img.webp" alt="Sprint Lab Hero" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature section -->
+    <section id="feature" class="features-section">
+        <div class="container-lg container-fluid">
+            <div class="text-center mb-5">
+                <span class="sec-label text-uppercase fw-bold mb-2 d-block">Features</span>
+                <h2 class="mb-3 fw-bold">What We Do</h2>
+                <p class="lead mb-4">Thoughtful, fast, and built to help your brand grow.</p>
+            </div>
+            <div class="feature-cards-wrapper">
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card card border-0 p-4 h-100">
+                            <span class="feature-icon mb-3">
+                                <i class="fa-solid fa-display"></i>
+                            </span>
+                            <h5 class="fw-bold mb-2">Web Design</h5>
+                            <p class="text-muted mb-0">
+                                Clean, modern websites that communicate your message clearly
+                                and convert visitors into customers.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card card border-0 p-4 h-100">
+                            <span class="feature-icon mb-3">
+                                <i class="fa-solid fa-shapes"></i>
+                            </span>
+                            <h5 class="fw-bold mb-2">Brand Identity</h5>
+                            <p class="text-muted mb-0">
+                                From logos to full visual systems, we craft brands with clarity,
+                                personality, and purpose.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card card border-0 p-4 h-100">
+                            <span class="feature-icon mb-3">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </span>
+                            <h5 class="fw-bold mb-2">Product UI/UX</h5>
+                            <p class="text-muted mb-0">
+                                Intuitive, user-centered digital experiences that feel effortless
+                                from the very first tap.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card card border-0 p-4 h-100">
+                            <span class="feature-icon mb-3">
+                                <i class="fa-solid fa-bolt"></i>
+                            </span>
+                            <h5 class="fw-bold mb-2">Full-Stack Development</h5>
+                            <p class="text-muted mb-0">
+                                Fast, scalable builds using modern tech — built to perform today
+                                and adapt for tomorrow.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing section -->
+    <section id="pricing" class="pricing-section py-5">
+        <div class="container-lg container-fluid">
+            <div class="text-center mb-5">
+                <span class="sec-label text-uppercase fw-bold mb-2 d-block">Pricing</span>
+                <h2 class="mb-3 fw-bold">Our Pricing Plans</h2>
+                <p class="lead mb-4">Simple, transparent pricing for every business size.</p>
+            </div>
+
+            <div class="pricing-cards-wrapper py-4">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card pricing-card text-center p-4 h-100">
+                            <h5 class="fw-bold mb-3">Starter</h5>
+                            <p class="pricing-amount mb-2">$499</p>
+                            <p class="lead mb-3">One-time project</p>
+                            <ul class="list-unstyled mb-4">
+                                <li>Up to 5 Pages</li>
+                                <li>Basic UI/UX</li>
+                                <li>Email Support</li>
+                            </ul>
+                            <button type="button" class="btn theme-btn pricing-btn">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card pricing-card pricing-card-highlight text-center p-4 h-100 position-relative">
+                            <span class="badge highlight-badge">Most Popular</span>
+                            <h5 class="fw-bold mb-3">Professional</h5>
+                            <p class="pricing-amount mb-2">$1,199</p>
+                            <p class="lead mb-3">Full-featured product development</p>
+                            <ul class="list-unstyled mb-4">
+                                <li>Up to 20 Pages / Features</li>
+                                <li>Advanced UI/UX Design</li>
+                                <li>Priority Support</li>
+                            </ul>
+                            <button type="button" class="btn theme-btn pricing-btn">Start Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card pricing-card text-center p-4 h-100">
+                            <h5 class="fw-bold mb-3">Enterprise</h5>
+                            <p class="pricing-amount mb-2">Custom</p>
+                            <p class="lead mb-3">Tailored solutions for large teams</p>
+                            <ul class="list-unstyled mb-4">
+                                <li>Unlimited Pages / Features</li>
+                                <li>Custom Design & Development</li>
+                                <li>Dedicated Account Manager</li>
+                            </ul>
+                            <button type="button" class="btn theme-btn pricing-btn">Contact Us</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- faq section -->
+    <section id="faq" class="faq-sec py-5">
+        <div class="container-lg container-fluid">
+            <div class="row align-items-center">
+                <!-- Left Column -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="left-content">
+                        <span class="sec-label text-uppercase fw-bold mb-2 d-block">FAQ</span>
+                        <h2 class="mb-3 fw-bold">Frequently Asked Questions</h2>
+                        <p class="lead mb-4">Find answers to the most common queries here.</p>
+
+                        <div class="accordion" id="faqAccordion">
+                            <!-- FAQ 1 -->
+                            <div class="accordion-item mb-3 position-relative">
+                                <h2 class="accordion-header position-relative" id="headingOne">
+                                    <button class="accordion-button pe-5" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">How long does a typical project take?</button>
+                                    <button class="toggle-icon" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Most projects take between 3–6 weeks depending on scope. We move fast while
+                                        keeping communication clear and consistent.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 2 -->
+                            <div class="accordion-item mb-3 position-relative">
+                                <h2 class="accordion-header position-relative" id="headingTwo">
+                                    <button class="accordion-button collapsed pe-5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Do you provide ongoing support after launch?
+                                    </button>
+                                    <button class="toggle-icon" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Yes — we offer maintenance packages, updates, and feature upgrades to keep your
+                                        product sharp and secure.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 3 -->
+                            <div class="accordion-item mb-3 position-relative">
+                                <h2 class="accordion-header position-relative" id="headingThree">
+                                    <button class="accordion-button collapsed pe-5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        What does your design process look like?
+                                    </button>
+                                    <button class="toggle-icon" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        We start with strategy and discovery, then move into visual design, prototyping,
+                                        development, and refinement.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn-wrapper">
+                            <a href="#"
+                                class="theme-btn btn mt-4 d-inline-flex justify-content-center align-items-center gap-lg-3 gap-1">
+                                Get Started <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column (Image) -->
+                <div class="col-lg-6">
+                    <div class="faq-image d-none d-lg-block">
+                        <img src="assets/img/faq.webp" alt="FAQ Visual" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial section -->
+    <section id="testimonial" class="testimonial-section py-5">
+        <div class="container-lg container-fluid">
+            <div class="text-center mb-5">
+                <span class="sec-label text-uppercase fw-bold mb-2 d-block">Testimonial</span>
+                <h2 class="mb-3 fw-bold">What Our Clients Say</h2>
+                <p class="lead mb-4">Real feedback from amazing brands we’ve worked with.</p>
+            </div>
+
+            <div class="testimonial-slider">
+                <div class="testimonial-card text-center p-4">
+                    <p class="testimonial-text">
+                        “SprintLab completely transformed our digital presence. Their design and development process was
+                        seamless and professional.”
+                    </p>
+                    <div class="user-info d-flex justify-content-center gap-2 flex-column">
+                        <h6 class="testimonial-name">Jessica Lee</h6>
+                        <span class="testimonial-role">CEO, BrightSide</span>
+                        <div class="img"><img src="./assets/img/user-1.avif" alt="Jessica Lee">
+                    </div>
+                    </div>
+                </div>
+                <div class="testimonial-card text-center p-4">
+                    <p class="testimonial-text">
+                        “Working with SprintLab was a joy. The team delivered our MVP ahead of schedule and it exceeded
+                        all expectations.”
+                    </p>
+                    <div class="user-info d-flex justify-content-center gap-2 flex-column">
+                        <h6 class="testimonial-name">Mark Thompson</h6>
+                        <span class="testimonial-role">Product Manager, FlowTech</span>
+                        <div class="img"><img src="./assets/img/user-2.avif" alt="Mark Thompson">
+                    </div>
+                    </div>
+                </div>
+                <div class="testimonial-card text-center p-4">
+                    <p class="testimonial-text">
+                        “Their creativity and attention to detail are unmatched. Our website now truly reflects our
+                        brand.”
+                    </p>
+                    <div class="user-info d-flex justify-content-center gap-2 flex-column">
+                        <h6 class="testimonial-name">Lily Roberts</h6>
+                        <span class="testimonial-role">Founder, Craftly</span>
+                        <div class="img"><img src="./assets/img/user-3.avif" alt="Lily Roberts">
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-section py-4">
+        <div class="container-lg container-fluid text-center">
+            <div class="logo-wrapper mb-3">
+                <a href="#">
+                    <img src="./assets/img/logo.webp" alt="SprintLab" width="200px">
+                </a>
+            </div>
+            <p class="lead mb-3">Building digital experiences that matter.</p>
+            <div class="footer-links mb-3">
+            <a href="#hero">Home</a> | 
+            <a href="#features">Features</a> | 
+            <a href="#pricing">Pricing</a> | 
+            <a href="#faq">FAQ</a> | 
+            <a href="#testimonials">Testimonials</a>
+            </div>
+            <p class="lead mb-0">&copy; <span id="currentYear"></span> SprintLab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
